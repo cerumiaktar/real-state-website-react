@@ -16,19 +16,19 @@ const Flat = ({ flat }) => {
                         </div>
                         <div className="carousel-item w-full">
                             <img
-                                src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
+                                src="https://i.ibb.co.com/Kx7M3GZR/image-3.png"
                                 className="w-full"
                                 alt="Tailwind CSS Carousel component" />
                         </div>
                         <div className="carousel-item w-full">
                             <img
-                                src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
+                                src="https://i.ibb.co.com/ksfFYMXn/image-4.png"
                                 className="w-full"
                                 alt="Tailwind CSS Carousel component" />
                         </div>
                         <div className="carousel-item w-full">
                             <img
-                                src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
+                                src="https://i.ibb.co.com/qL1wKqCG/image-5.png"
                                 className="w-full"
                                 alt="Tailwind CSS Carousel component" />
                         </div>

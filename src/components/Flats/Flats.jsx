@@ -23,6 +23,9 @@ const Flats = () => {
                     flats.map((flat, idx) =><Flat key={idx} flat={flat}></Flat>)
                 }
             </div>
+            <div className="mt-6 flex justify-center">
+                <button className="btn border-[#637307] text-[#637307] text-lg">Load More</button>
+            </div>
         </div>
     );
 };
