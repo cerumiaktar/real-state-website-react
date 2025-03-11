@@ -1,7 +1,8 @@
-
+import { LiaBathSolid } from "react-icons/lia";
+import { IoBedOutline, IoCarOutline, IoHomeOutline } from "react-icons/io5";
 
 const Flat = ({ flat }) => {
-    const {img} = flat;
+    const { img, title, price, category } = flat;
     return (
         <div>
             <div className="card bg-base-100 shadow-sm">
@@ -40,13 +41,30 @@ const Flat = ({ flat }) => {
                     </div>
                 </figure>
 
-                <div className="card-body">
-                    <h2 className="card-title">Card Title</h2>
-                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Buy Now</button>
+                <div className="card-body text-center">
+                    <h2 className="card-title mx-auto">{title}</h2>
+                    <p className="text-lg font-medium text-[#637307]">{price}</p>
+                    <p>{category}</p>
+                    <div className="flex items-center justify-center gap-8 ">
+                        <div className="flex items-center gap-2 text-lg font-medium">
+                            <p><LiaBathSolid /></p>
+                            <p>4</p>
+                        </div>
+                        <div className="flex items-center gap-2 text-lg font-medium">
+                            <p><IoBedOutline /></p>
+                            <p>3</p>
+                        </div>
+                        <div className="flex items-center gap-2 text-lg font-medium">
+                            <p><IoCarOutline /></p>
+                            <p>1</p>
+                        </div>
+                        <div className="flex items-center gap-2 text-lg font-medium">
+                            <p><IoHomeOutline /></p>
+                            <p>1200 m<sup>2</sup> </p>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
     );
