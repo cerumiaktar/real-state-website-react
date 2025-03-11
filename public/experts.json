@@ -1,0 +1,22 @@
+[
+    {
+        "img": "https://i.ibb.co.com/Hfsqb6VY/Rectangle-5.png",
+        "name": "John Doe",
+        "designation": "Software Engineer"
+    },
+    {
+        "img": "https://i.ibb.co.com/7xQpVsrr/Rectangle-5-1.png",
+        "name": "Lily Dianne",
+        "designation": "UI/UX Designer"
+    },
+    {
+        "img": "https://i.ibb.co.com/Q3s5nJ5x/Rectangle-5-2.png",
+        "name": "Michael Brown",
+        "designation": "Project Manager"
+    },
+    {
+        "img": "https://i.ibb.co.com/xKYW2MdP/Rectangle-5-3.png",
+        "name": "Emily Johnson",
+        "designation": "Data Analyst"
+    }
+]
