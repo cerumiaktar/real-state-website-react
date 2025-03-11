@@ -4,7 +4,7 @@ import { RiSearchLine } from "react-icons/ri";
 
 const Banner = () => {
     return (
-        <div className="bg-[#637307] mt-14 container mx-auto rounded-2xl h-[401px]">
+        <div className="bg-[#637307] mt-14 container mx-auto rounded-2xl md:h-[401px]">
             <div className="hero">
                 <div className="hero-content text-center text-white">
                     <div className="mt-8">
@@ -18,7 +18,7 @@ const Banner = () => {
                             <button className="btn btn-outline">For Sale</button>
                             <button className="btn btn-outline">For Rent</button>
                         </div>
-                        <div className="bg-white mt-8 py-4 flex items-center justify-center gap-8 rounded-lg">
+                        <div className="bg-white mt-8 py-4 flex flex-col md:flex-row items-center justify-center gap-8 rounded-lg">
                             <div>
                                 <button className="text-[#637307] flex items-center btn border-[#637307]" ><span><HiOutlineLocationMarker /></span>City</button>
                             </div>

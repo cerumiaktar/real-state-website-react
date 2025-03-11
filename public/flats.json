@@ -1,0 +1,98 @@
+[
+    {
+        "img": "https://i.ibb.co.com/N64T1KvW/Rectangle-1.png",
+        "title": "Modern Family House",
+        "price": "$450,000",
+        "category": "Residential"
+    },
+    {
+        "img": "https://i.ibb.co.com/tPb8MBcF/Rectangle-1-1.png",
+        "title": "Luxury City Apartment",
+        "price": "$750,000",
+        "category": "Apartment"
+    },
+    {
+        "img": "https://i.ibb.co.com/BVLHCpTV/Rectangle-1-2.png",
+        "title": "Beachfront Villa",
+        "price": "$1,200,000",
+        "category": "Villa"
+    },
+    {
+        "img": "https://i.ibb.co.com/wNggZ5jK/Rectangle-1-3.png",
+        "title": "Downtown Condo",
+        "price": "$600,000",
+        "category": "Condo"
+    },
+    {
+        "img": "https://i.ibb.co.com/cXcFVWwM/Rectangle-1-4.png",
+        "title": "Spacious Suburban Home",
+        "price": "$350,000",
+        "category": "Residential"
+    },
+    {
+        "img": "https://i.ibb.co.com/mVf9M4L0/Rectangle-1-5.png",
+        "title": "Skyline Penthouse",
+        "price": "$950,000",
+        "category": "Apartment"
+    },
+    {
+        "img": "https://i.ibb.co.com/d41YshjW/Rectangle-1-6.png",
+        "title": "Private Island Villa",
+        "price": "$5,000,000",
+        "category": "Villa"
+    },
+    {
+        "img": "https://i.ibb.co.com/20kBXvhF/Rectangle-1-7.png",
+        "title": "Luxury Condo by the Lake",
+        "price": "$680,000",
+        "category": "Condo"
+    },
+    {
+        "img": "https://i.ibb.co.com/G48k8NSZ/Rectangle-1-8.png",
+        "title": "Cozy Cottage",
+        "price": "$275,000",
+        "category": "Residential"
+    },
+    {
+        "img": "https://i.ibb.co.com/KzfjH6xv/Rectangle-1-9.png",
+        "title": "Modern Studio Apartment",
+        "price": "$320,000",
+        "category": "Apartment"
+    },
+    {
+        "img": "https://i.ibb.co.com/xKQ7pNXq/Rectangle-1-10.png",
+        "title": "Mountain Retreat Villa",
+        "price": "$1,500,000",
+        "category": "Villa"
+    },
+    {
+        "img": "https://i.ibb.co.com/hRwM8Hz4/Rectangle-1-11.png",
+        "title": "High-Rise Condo with City View",
+        "price": "$850,000",
+        "category": "Condo"
+    },
+    {
+        "img": "https://i.ibb.co.com/mVf9M4L0/Rectangle-1-5.png",
+        "title": "Elegant Victorian Home",
+        "price": "$520,000",
+        "category": "Residential"
+    },
+    {
+        "img": "https://i.ibb.co.com/BVLHCpTV/Rectangle-1-2.png",
+        "title": "Compact City Apartment",
+        "price": "$280,000",
+        "category": "Apartment"
+    },
+    {
+        "img": "https://i.ibb.co.com/cXcFVWwM/Rectangle-1-4.png",
+        "title": "Countryside Villa",
+        "price": "$1,800,000",
+        "category": "Villa"
+    },
+    {
+        "img": "https://i.ibb.co.com/hRwM8Hz4/Rectangle-1-11.png",
+        "title": "Seaside Condo",
+        "price": "$900,000",
+        "category": "Condo"
+    }
+]
