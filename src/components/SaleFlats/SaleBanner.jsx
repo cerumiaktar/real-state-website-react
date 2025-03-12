@@ -2,7 +2,7 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { RiSearchLine } from "react-icons/ri";
 
-const Banner = () => {
+const SaleBanner = () => {
     return (
         <div className="container mx-auto mt-12 ">
             <div
@@ -15,8 +15,8 @@ const Banner = () => {
                     <div className="py-8">
                         <div className="space-x-8">
                             <button className="btn btn-outline">All</button>
-                            <button className="btn btn-outline">For Sale</button>
-                            <button className="btn bg-white">For Rent</button>
+                            <button className="btn bg-white">For Sale</button>
+                            <button className="btn btn-outline">For Rent</button>
                         </div>
                         <div className="bg-white mt-4 py-4 px-8 flex flex-col md:flex-row items-center justify-center gap-8 rounded-lg">
                             <div>
@@ -39,4 +39,4 @@ const Banner = () => {
     );
 };
 
-export default Banner;
+export default SaleBanner;

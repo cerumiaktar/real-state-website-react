@@ -9,6 +9,7 @@ import {
 import Root from './Root/Root.jsx';
 import Home from './components/Home/Home.jsx';
 import RentFlats from './components/RentFlats/RentFlats.jsx';
+import SaleFlats from './components/SaleFlats/SaleFlats.jsx';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path:'/rent',
         element: <RentFlats></RentFlats>
+      },
+      {
+        path:'/sale',
+        element:<SaleFlats></SaleFlats>
       }
     ]
   },
