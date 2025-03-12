@@ -12,7 +12,7 @@ const Blog = ({blog}) => {
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title">{title}</h2>
-                    <p>{description}</p>
+                    <p className="text-[#414141] leading-6">{description}</p>
                     <div className="card-actions">
                         <button className="btn bg-[#B4CB21] w-full">Read More</button>
                     </div>
