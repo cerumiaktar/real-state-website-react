@@ -10,6 +10,7 @@ import Root from './Root/Root.jsx';
 import Home from './components/Home/Home.jsx';
 import RentFlats from './components/RentFlats/RentFlats.jsx';
 import SaleFlats from './components/SaleFlats/SaleFlats.jsx';
+import AllBlogs from './components/AllBlogs/AllBlogs.jsx';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path:'/sale',
         element:<SaleFlats></SaleFlats>
+      },
+      {
+        path:'/allBlogs',
+        element:<AllBlogs></AllBlogs>
       }
     ]
   },
