@@ -11,6 +11,7 @@ import Home from './components/Home/Home.jsx';
 import RentFlats from './components/RentFlats/RentFlats.jsx';
 import SaleFlats from './components/SaleFlats/SaleFlats.jsx';
 import AllBlogs from './components/AllBlogs/AllBlogs.jsx';
+import About from './components/About/About.jsx';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path:'/allBlogs',
         element:<AllBlogs></AllBlogs>
+      },
+      {
+        path:'/about',
+        element:<About></About>
       }
     ]
   },
