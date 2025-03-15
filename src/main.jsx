@@ -13,6 +13,8 @@ import SaleFlats from './components/SaleFlats/SaleFlats.jsx';
 import AllBlogs from './components/AllBlogs/AllBlogs.jsx';
 import About from './components/About/About.jsx';
 import Contact from './components/Contact/Contact.jsx';
+import Login from './components/Login/Login.jsx';
+import Register from './components/Register/Register.jsx';
 
 const router = createBrowserRouter([
   {
@@ -42,6 +44,14 @@ const router = createBrowserRouter([
       {
         path:'/contact',
         element:<Contact></Contact>
+      },
+      {
+        path:'/login',
+        element:<Login></Login>
+      },
+      {
+        path:'/register',
+        element:<Register></Register>
       }
     ]
   },
