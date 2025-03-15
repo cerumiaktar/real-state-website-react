@@ -7,6 +7,14 @@ const Register = () => {
             <div className="border-2 border-gray-300 rounded-2xl mt-8 mb-8 px-11 py-11 space-y-4">
                 <h1 className="text-2xl font-medium text-center">Register Now</h1>
                 <fieldset className="fieldset">
+                    <legend className="fieldset-legend text-xl">Name</legend>
+                    <input type="text" className="input w-full" placeholder="Enter Your Name" />
+                </fieldset>
+                <fieldset className="fieldset">
+                    <legend className="fieldset-legend text-xl">Phone Number</legend>
+                    <input type="text" className="input w-full" placeholder="Enter Your Phone Number" />
+                </fieldset>
+                <fieldset className="fieldset">
                     <legend className="fieldset-legend text-xl">Email</legend>
                     <input type="email" className="input w-full" placeholder="Enter Your Email" />
                 </fieldset>
