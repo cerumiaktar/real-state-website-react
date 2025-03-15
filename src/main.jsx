@@ -12,6 +12,7 @@ import RentFlats from './components/RentFlats/RentFlats.jsx';
 import SaleFlats from './components/SaleFlats/SaleFlats.jsx';
 import AllBlogs from './components/AllBlogs/AllBlogs.jsx';
 import About from './components/About/About.jsx';
+import Contact from './components/Contact/Contact.jsx';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path:'/about',
         element:<About></About>
+      },
+      {
+        path:'/contact',
+        element:<Contact></Contact>
       }
     ]
   },

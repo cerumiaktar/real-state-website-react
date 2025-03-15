@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import SaleBanner from "./SaleBanner";
 import SaleFlat from "./SaleFlat";
+import SaleContact from "./SaleContact";
 
 
 const SaleFlats = () => {
@@ -25,6 +26,7 @@ const SaleFlats = () => {
                     }
                 </div>
             </div>
+            <SaleContact></SaleContact>
         </div>
     );
 };
