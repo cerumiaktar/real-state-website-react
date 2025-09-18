@@ -21,20 +21,20 @@ const Contact = () => {
                 {/* contact field */}
                 <div className="border-2 border-gray-300 rounded-2xl mt-8 mb-8 px-11 py-11 space-y-4">
                     <fieldset className="fieldset">
-                        <legend className="fieldset-legend text-xl">Name</legend>
-                        <input type="text" className="input w-full" placeholder="Enter Your Name" />
+                        <legend className="fieldset-legend text-xl dark:text-black">Name</legend>
+                        <input type="text" className="input w-full dark:bg-white dark:text-[#333333] dark:border-[#cacaca]" placeholder="Enter Your Name" />
                     </fieldset>
                     <fieldset className="fieldset">
-                        <legend className="fieldset-legend text-xl">Phone Number</legend>
-                        <input type="text" className="input w-full" placeholder="Enter Your Phone Number" />
+                        <legend className="fieldset-legend text-xl dark:text-black">Phone Number</legend>
+                        <input type="text" className="input w-full dark:bg-white dark:text-[#333333] dark:border-[#cacaca]" placeholder="Enter Your Phone Number" />
                     </fieldset>
                     <fieldset className="fieldset">
-                        <legend className="fieldset-legend text-xl">Email</legend>
-                        <input type="text" className="input w-full" placeholder="Enter Your Email" />
+                        <legend className="fieldset-legend text-xl dark:text-black">Email</legend>
+                        <input type="text" className="input w-full dark:bg-white dark:text-[#333333] dark:border-[#cacaca]" placeholder="Enter Your Email" />
                     </fieldset>
                     <fieldset className="fieldset">
-                        <legend className="fieldset-legend text-xl">Message</legend>
-                        <textarea className="textarea w-full" placeholder="Write Your Message"></textarea>
+                        <legend className="fieldset-legend text-xl dark:text-black">Message</legend>
+                        <textarea className="textarea w-full dark:bg-white dark:text-[#333333] dark:border-[#cacaca]" placeholder="Write Your Message"></textarea>
                     </fieldset>
                     <div className="flex items-center">
                         <input type="checkbox" className="checkbox checkbox-sm" />
@@ -44,11 +44,11 @@ const Contact = () => {
                 </div>
                 {/* map */}
                 <div className="mb-4">
-                    <p>Address: Dhaka, Bangladesh <span className="font-medium text-[#637307]">Get Direction</span></p>
+                    <p className="dark:text-[#333333]">Address: Dhaka, Bangladesh <span className="font-medium text-[#637307]">Get Direction</span></p>
                 </div>
             </div>
 
-            <img src="https://i.ibb.co.com/wZZb1J3V/Frame-69.png" alt="" />
+            <img className="h-[300px] w-full" src="https://i.ibb.co.com/wZZb1J3V/Frame-69.png" alt="" />
         </div>
     );
 };
