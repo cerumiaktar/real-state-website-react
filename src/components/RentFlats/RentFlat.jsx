@@ -5,7 +5,7 @@ import { IoBedOutline, IoCarOutline, IoHomeOutline } from "react-icons/io5";
 const RentFlat = ({ rentFlat }) => {
     const { img, title, price, category } = rentFlat;
     return (
-        <div className="card bg-base-100 shadow-sm">
+        <div className="card bg-base-100 dark:bg-white dark:text-black shadow-sm">
             <figure className="relative">
                 <div className="carousel rounded-box h-[287px]">
                     <div className="carousel-item w-full ">

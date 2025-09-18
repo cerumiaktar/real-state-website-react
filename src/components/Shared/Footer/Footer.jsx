@@ -10,7 +10,7 @@ const Footer = () => {
                         <input
                             type="text"
                             placeholder="username@site.com"
-                            className="input input-bordered join-item md:w-[600px]" />
+                            className="input input-bordered join-item md:w-[600px] dark:bg-white dark:text-[#333333]" />
                         <button className="btn bg-[#637307] text-white border-none join-item">Subscribe</button>
                     </div>
                 </fieldset>
