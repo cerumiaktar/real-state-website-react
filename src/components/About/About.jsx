@@ -36,63 +36,63 @@ const About = () => {
             {/* expert */}
             <div>
                 <div className="flex justify-between items-center mt-6 mb-6">
-                    <h1 className="text-2xl font-medium">Meet Our Experts</h1>
-                    <p>See all</p>
+                    <h1 className="text-2xl font-medium dark:text-black">Meet Our Experts</h1>
+                    <p className="dark:text-[#333333]">See all</p>
                 </div>
                 <div className="mb-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <div className="card bg-base-100 shadow-sm">
+                    <div className="card bg-base-100 dark:bg-white shadow-sm">
                         <figure>
                             <img
                                 src="https://i.ibb.co.com/Hfsqb6VY/Rectangle-5.png"
                                 alt="Shoes" />
                         </figure>
-                        <div className="card-body text-center">
+                        <div className="card-body text-center dark:text-black">
                             <h2 className="card-title mx-auto">Esther Howard</h2>
                             <p>Founder & CEO</p>
                             <div className="card-actions">
-                                <button className="btn bg-[#A4BC14] w-full">View Profile</button>
+                                <button className="btn bg-[#A4BC14] w-full dark:border-none">View Profile</button>
                             </div>
                         </div>
                     </div>
-                    <div className="card bg-base-100 shadow-sm">
+                    <div className="card bg-base-100 dark:bg-white shadow-sm">
                         <figure>
                             <img
                                 src="https://i.ibb.co.com/7xQpVsrr/Rectangle-5-1.png"
                                 alt="Shoes" />
                         </figure>
-                        <div className="card-body text-center">
+                        <div className="card-body text-center dark:text-black">
                             <h2 className="card-title mx-auto">Gloria Kristin</h2>
                             <p>Founder & CEO</p>
                             <div className="card-actions">
-                                <button className="btn bg-[#A4BC14] w-full">View Profile</button>
+                                <button className="btn bg-[#A4BC14] w-full dark:border-none">View Profile</button>
                             </div>
                         </div>
                     </div>
-                    <div className="card bg-base-100 shadow-sm">
+                    <div className="card bg-base-100 dark:bg-white shadow-sm">
                         <figure>
                             <img
                                 src="https://i.ibb.co.com/Q3s5nJ5x/Rectangle-5-2.png"
                                 alt="Shoes" />
                         </figure>
-                        <div className="card-body text-center">
+                        <div className="card-body text-center dark:text-black">
                             <h2 className="card-title mx-auto">Jenny Wilson</h2>
                             <p>Founder & CEO</p>
                             <div className="card-actions">
-                                <button className="btn bg-[#A4BC14] w-full">View Profile</button>
+                                <button className="btn bg-[#A4BC14] w-full dark:border-none">View Profile</button>
                             </div>
                         </div>
                     </div>
-                    <div className="card bg-base-100 shadow-sm">
+                    <div className="card bg-base-100 dark:bg-white shadow-sm">
                         <figure>
                             <img
                                 src="https://i.ibb.co.com/xKYW2MdP/Rectangle-5-3.png"
                                 alt="Shoes" />
                         </figure>
-                        <div className="card-body text-center">
+                        <div className="card-body text-center dark:text-black">
                             <h2 className="card-title mx-auto">Lily Dianne</h2>
                             <p>Founder & CEO</p>
                             <div className="card-actions">
-                                <button className="btn bg-[#A4BC14] w-full">View Profile</button>
+                                <button className="btn bg-[#A4BC14] w-full dark:border-none">View Profile</button>
                             </div>
                         </div>
                     </div>
