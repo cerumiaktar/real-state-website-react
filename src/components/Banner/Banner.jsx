@@ -22,7 +22,7 @@ const Banner = () => {
                         </div>
                         <div className="bg-white mt-8 py-4 flex flex-col md:flex-row items-center justify-center gap-8 rounded-lg">
                             <div>
-                                <button className="text-[#637307] flex items-center btn border-[#637307] dark:bg-white" ><span><HiOutlineLocationMarker /></span>City</button>
+                                <button className="text-[#637307] flex items-center btn border-[#637307] dark:bg-white" ><span><HiOutlineLocationMarker /></span>City <MdOutlineKeyboardArrowDown /></button>
                             </div>
                             <div>
                                 <button className="text-[#637307] flex items-center btn border-[#637307] dark:bg-white" >Property type<span><MdOutlineKeyboardArrowDown /></span></button>
