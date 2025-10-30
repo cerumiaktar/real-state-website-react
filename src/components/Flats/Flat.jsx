@@ -5,7 +5,7 @@ const Flat = ({ flat }) => {
     const { img, title, price, category } = flat;
     return (
         <div>
-            <div className="card bg-base-100 dark:bg-white dark:text-black shadow-sm">
+            {/* <div className="card bg-base-100 dark:bg-white dark:text-black shadow-sm">
                 <figure className="relative">
                     <div className="carousel rounded-box h-[287px]">
                         <div className="carousel-item w-full ">
@@ -65,6 +65,20 @@ const Flat = ({ flat }) => {
                     </div>
                 </div>
 
+            </div> */}
+            <div className="card bg-base-100 shadow-sm">
+                <figure>
+                    <img
+                        src={img}
+                        alt="Shoes" />
+                </figure>
+                <div className="card-body">
+                    <h2 className="card-title">{title}</h2>
+                    <p>{category}</p>
+                    <div className="card-actions justify-end">
+                        <button className="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
             </div>
         </div>
     );
