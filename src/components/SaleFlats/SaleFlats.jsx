@@ -16,9 +16,8 @@ const SaleFlats = () => {
         <div>
             <SaleBanner></SaleBanner>
             <div className="mt-14 mb-14 container mx-auto">
-                <div className="flex justify-between items-center mb-6">
-                    <h1 className="text-2xl font-medium dark:text-black">Flat For Sale</h1>
-                    <p className="dark:text-[#333333]">See all</p>
+                <div className="text-center mb-8">
+                    <h1 className="text-3xl font-bold dark:text-black">Flat For Sale</h1>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {
