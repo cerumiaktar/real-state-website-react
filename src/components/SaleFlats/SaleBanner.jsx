@@ -1,6 +1,7 @@
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { RiSearchLine } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 const SaleBanner = () => {
     return (
@@ -14,9 +15,9 @@ const SaleBanner = () => {
                 <div className="hero-content text-neutral-content text-center">
                     <div className="py-8">
                         <div className="space-x-8">
-                            <button className="btn btn-outline">All</button>
+                            <Link to='/'><button className="btn btn-outline">All</button></Link>
                             <button className="btn bg-white dark:border-none dark:text-[#637307]">For Sale</button>
-                            <button className="btn btn-outline">For Rent</button>
+                            <Link to='/rent'><button className="btn btn-outline">For Rent</button></Link>
                         </div>
                         <div className="bg-white mt-4 py-4 px-8 flex flex-col md:flex-row items-center justify-center gap-8 rounded-lg">
                             <div>
