@@ -5,6 +5,8 @@
 ## 📝 Project Overview  
 This project is a modern real-estate website built to allow users to explore, filter, and view properties for sale and rent. The website is designed with a responsive layout, intuitive UI/UX, and smooth user interactions to provide a seamless browsing experience on both desktop and mobile devices.
 
+<img width="1900" height="1200" alt="Review_Img" src="https://github.com/user-attachments/assets/a8b4e900-66d2-47b2-a94e-5f80c3d1e22a" />
+
 ## 🚀 Features  
 * Responsive design working across all devices (desktop, mobile)
 * Property listing page with image gallery, details
@@ -21,7 +23,5 @@ This project is a modern real-estate website built to allow users to explore, fi
 * Install dependencies- npm install
 * Start the development server-npm run dev
 * Build for production- npm run build
-  
-<img width="1900" height="1200" alt="Review_Img" src="https://github.com/user-attachments/assets/a8b4e900-66d2-47b2-a94e-5f80c3d1e22a" />
 
 <img width="1440" height="4316" alt="01_Home_Page" src="https://github.com/user-attachments/assets/d0f5d877-ae36-49ac-a8a5-bdd46c655d3b" />
