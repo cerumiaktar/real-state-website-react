@@ -4,17 +4,22 @@ const Review = ({ review }) => {
     const { id, img, name, designation, rating, description } = review;
     return (
         <div>
-            <div className="card card-border bg-base-100 w-96">
+            <div className="card card-border bg-base-100 w-full shadow-2xl">
                 <div className="card-body">
-                    <div>
-                        <img src="" alt="" />
+                    <div className="flex justify-between">
+                        <div className="flex items-center gap-3">
+                            <img className="w-14" src={img} alt="" />
+                            <div>
+                                <h2 className="card-title">{name}</h2>
+                                <p>{designation}</p>
+                            </div>
+                        </div>
                         <div>
-                            <h2 className="card-title">Card Title</h2>
-                            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                            <p className="text-lg text-amber-500">{rating}</p>
                         </div>
                     </div>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Buy Now</button>
+                    <div>
+                        <p>{description}</p>
                     </div>
                 </div>
             </div>
