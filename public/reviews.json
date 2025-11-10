@@ -5,7 +5,7 @@
         "name": "Sophia Rahman",
         "designation": "UI/UX Designer",
         "rating": "★★★★★",
-        "description": "Amazing experience! The team was highly professional and delivered the project on time with outstanding quality."
+        "description": "Amazing experience! The team was highly professional and delivered the project on time with outstanding quality.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since."
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "name": "Michael Ahmed",
         "designation": "Full Stack Developer",
         "rating": "★★★★☆",
-        "description": "Great communication throughout the project. The final result exceeded my expectations. Would definitely recommend!"
+        "description": "Great communication throughout the project. The final result exceeded my expectations. Would definitely recommend!Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. "
     },
     {
         "id": 3,
@@ -21,6 +21,6 @@
         "name": "Nusrat Hossain",
         "designation": "Digital Marketer",
         "rating": "★★★★★",
-        "description": "Very satisfied with the service. The attention to detail and creativity really made a difference in our brand’s look."
+        "description": "Very satisfied with the service. The attention to detail and creativity really made a difference in our brand’s look.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. "
     }
 ]
