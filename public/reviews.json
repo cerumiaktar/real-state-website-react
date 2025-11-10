@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co.com/S4qvF2TS/Ellipse-1-3.png",
+        "name": "Sophia Rahman",
+        "designation": "UI/UX Designer",
+        "rating": "★★★★★",
+        "description": "Amazing experience! The team was highly professional and delivered the project on time with outstanding quality."
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co.com/cKbp2ZMK/Ellipse-1-2.png",
+        "name": "Michael Ahmed",
+        "designation": "Full Stack Developer",
+        "rating": "★★★★☆",
+        "description": "Great communication throughout the project. The final result exceeded my expectations. Would definitely recommend!"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co.com/C3HPShLg/Ellipse-1-1.png",
+        "name": "Nusrat Hossain",
+        "designation": "Digital Marketer",
+        "rating": "★★★★★",
+        "description": "Very satisfied with the service. The attention to detail and creativity really made a difference in our brand’s look."
+    }
+]

@@ -3,6 +3,7 @@ import ShortBanner from "../Banner/ShortBanner";
 import Blogs from "../Blogs/Blogs";
 import Experts from "../Experts/Experts";
 import Flats from "../Flats/Flats";
+import Reviews from "../Reviews/Reviews";
 
 
 
@@ -13,6 +14,7 @@ const Home = () => {
             <Flats></Flats>
             <ShortBanner></ShortBanner>
             <Experts></Experts>
+            <Reviews></Reviews>
             <Blogs></Blogs>
         </div>
     );
