@@ -15,7 +15,7 @@ const Login = () => {
                     <input type="password" className="input w-full dark:bg-white dark:text-[#333333] dark:border-[#cacaca]" placeholder="Enter Your Password" />
                 </fieldset>
                 <div className="flex items-center justify-end">
-                    <p className="text-red-600">Forgot Password</p>
+                    <p className="text-red-600 font-medium">Forgot Password?</p>
                 </div>
                 <button className="btn w-full text-center bg-[#637307] text-white text-xl dark:border-none">Login</button>
                 <p className="text-center dark:text-[#333333]">Don’t have an account <Link to='/register' className="text-[#637307] font-medium">Register</Link></p>
