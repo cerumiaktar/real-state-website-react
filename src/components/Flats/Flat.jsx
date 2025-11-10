@@ -5,7 +5,7 @@ const Flat = ({ flat }) => {
     const { img, title, price, category } = flat;
     return (
         <div>
-            <div className="card bg-base-100 shadow-sm">
+            <div className="card bg-base-100 dark:bg-white dark:text-black shadow-sm">
                 <figure>
                     <img
                         src={img}

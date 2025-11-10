@@ -24,7 +24,7 @@ const Banner = () => {
                             <div>
                                 <div className="dropdown dropdown-start">
                                     <div tabIndex={0} role="button" className="btn m-1 text-[#637307] flex items-center border-[#637307] dark:bg-white"><span><HiOutlineLocationMarker /></span>City <MdOutlineKeyboardArrowDown /></div>
-                                    <ul tabIndex="-1" className="dropdown-content menu text-black bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+                                    <ul tabIndex="-1" className="dropdown-content menu text-black bg-base-100 dark:bg-white rounded-box z-1 w-52 p-2 shadow-sm">
                                         <li><a>Mohammadpur</a></li>
                                         <li><a>Gulshan</a></li>
                                     </ul>
@@ -33,7 +33,7 @@ const Banner = () => {
                             <div>
                                 <div className="dropdown dropdown-start">
                                     <div tabIndex={0} role="button" className="btn m-1 text-[#637307] flex items-center border-[#637307] dark:bg-white">Property type<span><MdOutlineKeyboardArrowDown /></span></div>
-                                    <ul tabIndex="-1" className="dropdown-content menu text-black bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+                                    <ul tabIndex="-1" className="dropdown-content menu text-black bg-base-100 dark:bg-white rounded-box z-1 w-52 p-2 shadow-sm">
                                         <li><a>Residential</a></li>
                                         <li><a>Commercial</a></li>
                                     </ul>
@@ -42,7 +42,7 @@ const Banner = () => {
                             <div>
                                 <div className="dropdown dropdown-start">
                                     <div tabIndex={0} role="button" className="btn m-1 text-[#637307] flex items-center border-[#637307] dark:bg-white">Price Range<span><MdOutlineKeyboardArrowDown /></span></div>
-                                    <ul tabIndex="-1" className="dropdown-content menu text-black bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+                                    <ul tabIndex="-1" className="dropdown-content menu text-black bg-base-100 dark:bg-white rounded-box z-1 w-52 p-2 shadow-sm">
                                         <li><a>50,000</a></li>
                                         <li><a>60,000</a></li>
                                     </ul>
