@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -41,6 +42,7 @@ const Footer = () => {
                     <a className="link link-hover">Youtube</a>
                 </nav>
             </footer>
+            <p className="text-white text-center pb-4">Copyright © 2025 by <Link to='https://github.com/cerumiaktar' className="font-bold">Rumi Akter</Link>. All rights reserved.</p>
         </div>
     );
 };
