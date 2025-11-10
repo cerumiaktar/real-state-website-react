@@ -19,15 +19,33 @@ const SaleBanner = () => {
                             <button className="btn bg-white dark:border-none dark:text-[#637307]">For Sale</button>
                             <Link to='/rent'><button className="btn btn-outline">For Rent</button></Link>
                         </div>
-                        <div className="bg-white mt-4 py-4 px-8 flex flex-col md:flex-row items-center justify-center gap-8 rounded-lg">
+                        <div className="bg-white mt-8 py-4 px-8 flex flex-col md:flex-row items-center justify-center gap-8 rounded-lg">
                             <div>
-                                <button className="text-[#637307] flex items-center btn border-[#637307] dark:bg-white" ><span><HiOutlineLocationMarker /></span>City</button>
+                                <div className="dropdown dropdown-start">
+                                    <div tabIndex={0} role="button" className="btn m-1 text-[#637307] flex items-center border-[#637307] dark:bg-white"><span><HiOutlineLocationMarker /></span>City <MdOutlineKeyboardArrowDown /></div>
+                                    <ul tabIndex="-1" className="dropdown-content menu text-black bg-base-100 dark:bg-white rounded-box z-1 w-52 p-2 shadow-sm">
+                                        <li><a>Mohammadpur</a></li>
+                                        <li><a>Gulshan</a></li>
+                                    </ul>
+                                </div>
                             </div>
                             <div>
-                                <button className="text-[#637307] flex items-center btn border-[#637307] dark:bg-white" >Property type<span><MdOutlineKeyboardArrowDown /></span></button>
+                                <div className="dropdown dropdown-start">
+                                    <div tabIndex={0} role="button" className="btn m-1 text-[#637307] flex items-center border-[#637307] dark:bg-white">Property type<span><MdOutlineKeyboardArrowDown /></span></div>
+                                    <ul tabIndex="-1" className="dropdown-content menu text-black bg-base-100 dark:bg-white rounded-box z-1 w-52 p-2 shadow-sm">
+                                        <li><a>Residential</a></li>
+                                        <li><a>Commercial</a></li>
+                                    </ul>
+                                </div>
                             </div>
                             <div>
-                                <button className="text-[#637307] flex items-center btn border-[#637307] dark:bg-white" >Price<span><MdOutlineKeyboardArrowDown /></span></button>
+                                <div className="dropdown dropdown-start">
+                                    <div tabIndex={0} role="button" className="btn m-1 text-[#637307] flex items-center border-[#637307] dark:bg-white">Price Range<span><MdOutlineKeyboardArrowDown /></span></div>
+                                    <ul tabIndex="-1" className="dropdown-content menu text-black bg-base-100 dark:bg-white rounded-box z-1 w-52 p-2 shadow-sm">
+                                        <li><a>50,000</a></li>
+                                        <li><a>60,000</a></li>
+                                    </ul>
+                                </div>
                             </div>
                             <div>
                                 <button className="text-white flex items-center btn bg-[#637307] dark:border-none" ><span><RiSearchLine /></span>Search</button>
