@@ -4,7 +4,7 @@ const Review = ({ review }) => {
     const { id, img, name, designation, rating, description } = review;
     return (
         <div>
-            <div className="card card-border bg-base-100 w-full shadow-2xl">
+            <div className="card card-border bg-base-100 dark:bg-white text-black dark:border-none w-full shadow-2xl">
                 <div className="card-body">
                     <div className="flex justify-between">
                         <div className="flex items-center gap-3">
